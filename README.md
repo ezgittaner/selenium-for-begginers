@@ -2,9 +2,9 @@
 
 for auxiliary documents http://testng.org/doc/documentation-main.html
 
+```xml
 pom.xml
 
-```xml
 <dependency> for chrome <!-- https://mvnrepository.com/artifact/org.seleniumhq.webdriver/webdriver-chrome -->
 <dependency> for testng <!-- https://mvnrepository.com/artifact/org.testng/testng -->
 <dependency> for selenium	<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
