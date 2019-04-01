@@ -10,7 +10,12 @@ import org.testng.annotations.Test;
 
 public class NegativeTests {
 
-	@Test
+	@Test(priority = 1)
+	// options http://testng.org/doc/documentation-main.html#annotations
+	// enabled = true or false
+	// priority = 1 or 2 etc.
+	// groups = { "smokeTests", "negativeTests" } (add xml groups)
+
 	public void incorrectUsernameTest() {
 		System.out.println("Starting incorrectusername test");
 
@@ -55,7 +60,7 @@ public class NegativeTests {
 		driver.quit();
 	}
 
-	@Test
+	@Test(priority = 2)
 	public void incorrectPasswordTest() {
 		System.out.println("Starting incorrectpassword test");
 
