@@ -10,10 +10,6 @@
     </run>
   </groups> -->
   
-  <parameter name="username" value=""></parameter>
-  <parameter name="password" value=""></parameter>
-  <parameter name="expectedMessage" value=""></parameter>
-  
     <classes>
       <class name="com.herokuapp.theinternet.NegativeTests">
       
